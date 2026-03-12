@@ -72,13 +72,12 @@ Dado que las variables personales (`clo`, `met`) no son medibles automáticament
 ## 📁 Estructura del Repositorio
 
 ```
-├── data/               # Dataset ASHRAE Global Thermal Comfort Database II
-├── notebooks/          # Jupyter notebooks de entrenamiento y análisis
-│   ├── ridge_model.ipynb
-│   ├── random_forest_model.ipynb
-│   └── xgboost_model.ipynb
-├── models/             # Modelos entrenados (.pkl)
-├── src/                # Código fuente
+├── Jupyter/               # Dataset ASHRAE Global Thermal Comfort Database and Jupyter notebooks de entrenamiento y análisis
+│   ├── pmv_predict.ipynb
+│   ├── t_out_predict.ipynb
+├── apps/             # Methods
+├── imgs/             # Images
+├── papers/           # State of Art and Paper (Equipo3_Hito2.pdf)
 └── README.md
 ```
 
